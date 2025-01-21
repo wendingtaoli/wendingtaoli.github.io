@@ -16,8 +16,13 @@
     window.$docsify = {
       name: '稳定套利',
       loadSidebar: true,
-      subMaxLevel: 6,
+      // 加载 summary.md
+      loadSidebar: 'sidebar.md',
+      subMaxLevel: 2,
       coverpage: 'index.md',
+      mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏。
+
+
       homepage: false
     }
   </script>
