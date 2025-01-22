@@ -5,9 +5,27 @@
   <meta charset="UTF-8">
   <title>稳定套利</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <meta name="description" content="套利系统">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 240px;
+      background-color: #f5f5f5;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      overflow-y: auto;
+      z-index: 1000;
+    }
+
+    .content {
+      margin-left: 260px;
+      padding: 20px;
+    }
+  </style>
 </head>
 
 <body>
@@ -21,8 +39,6 @@
       subMaxLevel: 2,
       coverpage: 'index.md',
       mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏。
-
-
       homepage: false
     }
   </script>
