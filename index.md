@@ -1,4 +1,4 @@
-# <span style="font-size: 1.2em; font-weight: bold; color: #42b983;">策略玩家</span>
+# <span style="font-size: 1.2em; font-weight: bold; color: #ffffff;">策略玩家</span>
 
 **量化新视野，开启数字资产新篇章。**  
 
